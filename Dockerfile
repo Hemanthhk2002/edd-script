@@ -12,7 +12,7 @@ RUN npm install --production
 COPY . .
 
 # Expose the port the app runs on (default Express port is 3000)
-EXPOSE 3000
+EXPOSE 4000
 
 # Set environment variables
 ENV NODE_ENV=production
