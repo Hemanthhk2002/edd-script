@@ -1,7 +1,19 @@
 {
+  "name": "warehouse-app",
+  "version": "1.0.0",
+  "description": "Excel processing API for warehouse management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required'"
+  },
   "dependencies": {
     "express": "^5.1.0",
     "multer": "^2.0.1",
     "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
